@@ -1,0 +1,164 @@
+@import '../plugins/sprites';
+
+// Build folder fallback
+$sprite-image: '../images/sprite.png';
+
+.icon-instagram {
+  display: inline-block;
+  width: $instagram-icon-width;
+  height: $instagram-icon-height;
+  background-image: url($sprite-image);
+  background-position: $instagram-icon-offset-x $instagram-icon-offset-y;
+}
+
+.icon-facebook {
+  display: inline-block;
+  width: $facebook-icon-width;
+  height: $facebook-icon-height;
+  background-image: url($sprite-image);
+  background-position: $facebook-icon-offset-x $facebook-icon-offset-y;
+}
+
+.icon-mastercard {
+  display: inline-block;
+  width: $mastercard-icon-width;
+  height: $mastercard-icon-height;
+  background-image: url($sprite-image);
+  background-position: $mastercard-icon-offset-x $mastercard-icon-offset-y;
+}
+
+.icon-visa {
+  display: inline-block;
+  width: $visa-icon-width;
+  height: $visa-icon-height;
+  background-image: url($sprite-image);
+  background-position: $visa-icon-offset-x $visa-icon-offset-y;
+}
+
+.icon-hipercard {
+  display: inline-block;
+  width: $hipercard-icon-width;
+  height: $hipercard-icon-height;
+  background-image: url($sprite-image);
+  background-position: $hipercard-icon-offset-x $hipercard-icon-offset-y;
+}
+
+.icon-americanexpress {
+  display: inline-block;
+  width: $americanexpress-icon-width;
+  height: $americanexpress-icon-height;
+  background-image: url($sprite-image);
+  background-position: $americanexpress-icon-offset-x $americanexpress-icon-offset-y;
+}
+
+.icon-card {
+  display: inline-block;
+  width: $card-icon-width;
+  height: $card-icon-height;
+  background-image: url($sprite-image);
+  background-position: $card-icon-offset-x $card-icon-offset-y;
+}
+
+.icon-elo {
+  display: inline-block;
+  width: $elo-icon-width;
+  height: $elo-icon-height;
+  background-image: url($sprite-image);
+  background-position: $elo-icon-offset-x $elo-icon-offset-y;
+}
+
+.icon-boleto {
+  display: inline-block;
+  width: $boleto-icon-width;
+  height: $boleto-icon-height;
+  background-image: url($sprite-image);
+  background-position: $boleto-icon-offset-x $boleto-icon-offset-y;
+}
+
+.icon-vtex {
+  display: inline-block;
+  width: $vtex-logo-width;
+  height: $vtex-logo-height;
+  background-image: url($sprite-image);
+  background-position: $vtex-logo-offset-x $vtex-logo-offset-y;
+}
+
+.icon-sanders {
+  display: inline-block;
+  width: $sanders-logo-width;
+  height: $sanders-logo-height;
+  background-image: url($sprite-image);
+  background-position: $sanders-logo-offset-x $sanders-logo-offset-y;
+}
+
+.icon-pci {
+  display: inline-block;
+  width: $pci-logo-width;
+  height: $pci-logo-height;
+  background-image: url($sprite-image);
+  background-position: $pci-logo-offset-x $pci-logo-offset-y;
+}
+
+.icon-encrypt {
+  display: inline-block;
+  width: $encrypt-logo-width;
+  height: $encrypt-logo-height;
+  background-image: url($sprite-image);
+  background-position: $encrypt-logo-offset-x $encrypt-logo-offset-y;
+}
+
+.icon-menu {
+  display: inline-block;
+  width: $burger-menu-width;
+  height: $burger-menu-height;
+  background-image: url($sprite-image);
+  background-position: $burger-menu-offset-x $burger-menu-offset-y;
+}
+
+.icon-cart {
+  display: inline-block;
+  width: $cart-icon-width;
+  height: $cart-icon-height;
+  background-image: url($sprite-image);
+  background-position: $cart-icon-offset-x $cart-icon-offset-y;
+}
+
+.icon-heart {
+  display: inline-block;
+  width: $like-icon-width;
+  height: $like-icon-height;
+  background-image: url($sprite-image);
+  background-position: $like-icon-offset-x $like-icon-offset-y;
+}
+
+.icon-heart2 {
+  display: inline-block;
+  width: $like2-icon-width;
+  height: $like2-icon-height;
+  background-image: url($sprite-image);
+  background-position: $like2-icon-offset-x $like2-icon-offset-y;
+}
+
+.icon-search {
+  display: inline-block;
+  width: $search-icon-width;
+  height: $search-icon-height;
+  background-image: url($sprite-image);
+  background-position: $search-icon-offset-x $search-icon-offset-y;
+}
+
+.icon-user {
+  display: inline-block;
+  width: $user-icon-width;
+  height: $user-icon-height;
+  background-image: url($sprite-image);
+  background-position: $user-icon-offset-x $user-icon-offset-y;
+}
+
+.icon-eye {
+  display: inline-block;
+  width:$eye-icon-width;
+  height:$eye-icon-height;
+  background-image: url($sprite-image);
+  background-position:$eye-icon-offset-x$eye-icon-offset-y;
+}

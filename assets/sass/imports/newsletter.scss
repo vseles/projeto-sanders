@@ -1,0 +1,48 @@
+// Newsletter scss
+
+.newsletter__section {
+  color: #656667;
+  margin-bottom: 65px;
+}
+
+.newsletter__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter__title {
+  font-size: 130%;
+  margin-bottom: 10px;
+}
+
+.newsletter__form {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+
+.newsletter__input {
+  width: 100%;
+  margin: auto 40px;
+  & > input[type=text] {
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px solid #656667;
+  }
+}
+
+.newsletter__policy {
+  font-size: 85%;
+  margin: 10px 0;
+}
+
+.newsletter__submit {
+  width: 220px;
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 10px;
+  text-transform: uppercase;
+  background-color: #000;
+}

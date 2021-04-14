@@ -1,0 +1,321 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$americanexpress-icon-name: 'americanexpress-icon';
+$americanexpress-icon-x: 86px;
+$americanexpress-icon-y: 74px;
+$americanexpress-icon-offset-x: -86px;
+$americanexpress-icon-offset-y: -74px;
+$americanexpress-icon-width: 30px;
+$americanexpress-icon-height: 22px;
+$americanexpress-icon-total-width: 180px;
+$americanexpress-icon-total-height: 175px;
+$americanexpress-icon-image: '../../images/sprite.png';
+$americanexpress-icon: (86px, 74px, -86px, -74px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'americanexpress-icon', );
+$arrow-left-name: 'arrow-left';
+$arrow-left-x: 157px;
+$arrow-left-y: 29px;
+$arrow-left-offset-x: -157px;
+$arrow-left-offset-y: -29px;
+$arrow-left-width: 21px;
+$arrow-left-height: 40px;
+$arrow-left-total-width: 180px;
+$arrow-left-total-height: 175px;
+$arrow-left-image: '../../images/sprite.png';
+$arrow-left: (157px, 29px, -157px, -29px, 21px, 40px, 180px, 175px, '../../images/sprite.png', 'arrow-left', );
+$arrow-right-name: 'arrow-right';
+$arrow-right-x: 135px;
+$arrow-right-y: 29px;
+$arrow-right-offset-x: -135px;
+$arrow-right-offset-y: -29px;
+$arrow-right-width: 22px;
+$arrow-right-height: 40px;
+$arrow-right-total-width: 180px;
+$arrow-right-total-height: 175px;
+$arrow-right-image: '../../images/sprite.png';
+$arrow-right: (135px, 29px, -135px, -29px, 22px, 40px, 180px, 175px, '../../images/sprite.png', 'arrow-right', );
+$boleto-icon-name: 'boleto-icon';
+$boleto-icon-x: 116px;
+$boleto-icon-y: 74px;
+$boleto-icon-offset-x: -116px;
+$boleto-icon-offset-y: -74px;
+$boleto-icon-width: 30px;
+$boleto-icon-height: 22px;
+$boleto-icon-total-width: 180px;
+$boleto-icon-total-height: 175px;
+$boleto-icon-image: '../../images/sprite.png';
+$boleto-icon: (116px, 74px, -116px, -74px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'boleto-icon', );
+$burger-menu-name: 'burger-menu';
+$burger-menu-x: 60px;
+$burger-menu-y: 45px;
+$burger-menu-offset-x: -60px;
+$burger-menu-offset-y: -45px;
+$burger-menu-width: 25px;
+$burger-menu-height: 25px;
+$burger-menu-total-width: 180px;
+$burger-menu-total-height: 175px;
+$burger-menu-image: '../../images/sprite.png';
+$burger-menu: (60px, 45px, -60px, -45px, 25px, 25px, 180px, 175px, '../../images/sprite.png', 'burger-menu', );
+$card-icon-name: 'card-icon';
+$card-icon-x: 146px;
+$card-icon-y: 74px;
+$card-icon-offset-x: -146px;
+$card-icon-offset-y: -74px;
+$card-icon-width: 30px;
+$card-icon-height: 22px;
+$card-icon-total-width: 180px;
+$card-icon-total-height: 175px;
+$card-icon-image: '../../images/sprite.png';
+$card-icon: (146px, 74px, -146px, -74px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'card-icon', );
+$cart-icon-name: 'cart-icon';
+$cart-icon-x: 0px;
+$cart-icon-y: 150px;
+$cart-icon-offset-x: 0px;
+$cart-icon-offset-y: -150px;
+$cart-icon-width: 21px;
+$cart-icon-height: 25px;
+$cart-icon-total-width: 180px;
+$cart-icon-total-height: 175px;
+$cart-icon-image: '../../images/sprite.png';
+$cart-icon: (0px, 150px, 0px, -150px, 21px, 25px, 180px, 175px, '../../images/sprite.png', 'cart-icon', );
+$elo-icon-name: 'elo-icon';
+$elo-icon-x: 0px;
+$elo-icon-y: 105px;
+$elo-icon-offset-x: 0px;
+$elo-icon-offset-y: -105px;
+$elo-icon-width: 30px;
+$elo-icon-height: 22px;
+$elo-icon-total-width: 180px;
+$elo-icon-total-height: 175px;
+$elo-icon-image: '../../images/sprite.png';
+$elo-icon: (0px, 105px, 0px, -105px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'elo-icon', );
+$encrypt-logo-name: 'encrypt-logo';
+$encrypt-logo-x: 0px;
+$encrypt-logo-y: 45px;
+$encrypt-logo-offset-x: 0px;
+$encrypt-logo-offset-y: -45px;
+$encrypt-logo-width: 60px;
+$encrypt-logo-height: 60px;
+$encrypt-logo-total-width: 180px;
+$encrypt-logo-total-height: 175px;
+$encrypt-logo-image: '../../images/sprite.png';
+$encrypt-logo: (0px, 45px, 0px, -45px, 60px, 60px, 180px, 175px, '../../images/sprite.png', 'encrypt-logo', );
+$eye-icon-name: 'eye-icon';
+$eye-icon-x: 164px;
+$eye-icon-y: 105px;
+$eye-icon-offset-x: -164px;
+$eye-icon-offset-y: -105px;
+$eye-icon-width: 15px;
+$eye-icon-height: 15px;
+$eye-icon-total-width: 180px;
+$eye-icon-total-height: 175px;
+$eye-icon-image: '../../images/sprite.png';
+$eye-icon: (164px, 105px, -164px, -105px, 15px, 15px, 180px, 175px, '../../images/sprite.png', 'eye-icon', );
+$facebook-icon-name: 'facebook-icon';
+$facebook-icon-x: 25px;
+$facebook-icon-y: 127px;
+$facebook-icon-offset-x: -25px;
+$facebook-icon-offset-y: -127px;
+$facebook-icon-width: 12px;
+$facebook-icon-height: 22px;
+$facebook-icon-total-width: 180px;
+$facebook-icon-total-height: 175px;
+$facebook-icon-image: '../../images/sprite.png';
+$facebook-icon: (25px, 127px, -25px, -127px, 12px, 22px, 180px, 175px, '../../images/sprite.png', 'facebook-icon', );
+$hipercard-icon-name: 'hipercard-icon';
+$hipercard-icon-x: 30px;
+$hipercard-icon-y: 105px;
+$hipercard-icon-offset-x: -30px;
+$hipercard-icon-offset-y: -105px;
+$hipercard-icon-width: 30px;
+$hipercard-icon-height: 22px;
+$hipercard-icon-total-width: 180px;
+$hipercard-icon-total-height: 175px;
+$hipercard-icon-image: '../../images/sprite.png';
+$hipercard-icon: (30px, 105px, -30px, -105px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'hipercard-icon', );
+$instagram-icon-name: 'instagram-icon';
+$instagram-icon-x: 120px;
+$instagram-icon-y: 105px;
+$instagram-icon-offset-x: -120px;
+$instagram-icon-offset-y: -105px;
+$instagram-icon-width: 22px;
+$instagram-icon-height: 22px;
+$instagram-icon-total-width: 180px;
+$instagram-icon-total-height: 175px;
+$instagram-icon-image: '../../images/sprite.png';
+$instagram-icon: (120px, 105px, -120px, -105px, 22px, 22px, 180px, 175px, '../../images/sprite.png', 'instagram-icon', );
+$like-icon-name: 'like-icon';
+$like-icon-x: 0px;
+$like-icon-y: 127px;
+$like-icon-offset-x: 0px;
+$like-icon-offset-y: -127px;
+$like-icon-width: 25px;
+$like-icon-height: 23px;
+$like-icon-total-width: 180px;
+$like-icon-total-height: 175px;
+$like-icon-image: '../../images/sprite.png';
+$like-icon: (0px, 127px, 0px, -127px, 25px, 23px, 180px, 175px, '../../images/sprite.png', 'like-icon', );
+$like2-icon-name: 'like2-icon';
+$like2-icon-x: 142px;
+$like2-icon-y: 105px;
+$like2-icon-offset-x: -142px;
+$like2-icon-offset-y: -105px;
+$like2-icon-width: 22px;
+$like2-icon-height: 20px;
+$like2-icon-total-width: 180px;
+$like2-icon-total-height: 175px;
+$like2-icon-image: '../../images/sprite.png';
+$like2-icon: (142px, 105px, -142px, -105px, 22px, 20px, 180px, 175px, '../../images/sprite.png', 'like2-icon', );
+$mastercard-icon-name: 'mastercard-icon';
+$mastercard-icon-x: 60px;
+$mastercard-icon-y: 105px;
+$mastercard-icon-offset-x: -60px;
+$mastercard-icon-offset-y: -105px;
+$mastercard-icon-width: 30px;
+$mastercard-icon-height: 22px;
+$mastercard-icon-total-width: 180px;
+$mastercard-icon-total-height: 175px;
+$mastercard-icon-image: '../../images/sprite.png';
+$mastercard-icon: (60px, 105px, -60px, -105px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'mastercard-icon', );
+$pci-logo-name: 'pci-logo';
+$pci-logo-x: 86px;
+$pci-logo-y: 29px;
+$pci-logo-offset-x: -86px;
+$pci-logo-offset-y: -29px;
+$pci-logo-width: 49px;
+$pci-logo-height: 45px;
+$pci-logo-total-width: 180px;
+$pci-logo-total-height: 175px;
+$pci-logo-image: '../../images/sprite.png';
+$pci-logo: (86px, 29px, -86px, -29px, 49px, 45px, 180px, 175px, '../../images/sprite.png', 'pci-logo', );
+$sanders-logo-name: 'sanders-logo';
+$sanders-logo-x: 86px;
+$sanders-logo-y: 0px;
+$sanders-logo-offset-x: -86px;
+$sanders-logo-offset-y: 0px;
+$sanders-logo-width: 94px;
+$sanders-logo-height: 29px;
+$sanders-logo-total-width: 180px;
+$sanders-logo-total-height: 175px;
+$sanders-logo-image: '../../images/sprite.png';
+$sanders-logo: (86px, 0px, -86px, 0px, 94px, 29px, 180px, 175px, '../../images/sprite.png', 'sanders-logo', );
+$search-icon-name: 'search-icon';
+$search-icon-x: 37px;
+$search-icon-y: 127px;
+$search-icon-offset-x: -37px;
+$search-icon-offset-y: -127px;
+$search-icon-width: 14px;
+$search-icon-height: 14px;
+$search-icon-total-width: 180px;
+$search-icon-total-height: 175px;
+$search-icon-image: '../../images/sprite.png';
+$search-icon: (37px, 127px, -37px, -127px, 14px, 14px, 180px, 175px, '../../images/sprite.png', 'search-icon', );
+$user-icon-name: 'user-icon';
+$user-icon-x: 60px;
+$user-icon-y: 70px;
+$user-icon-offset-x: -60px;
+$user-icon-offset-y: -70px;
+$user-icon-width: 25px;
+$user-icon-height: 25px;
+$user-icon-total-width: 180px;
+$user-icon-total-height: 175px;
+$user-icon-image: '../../images/sprite.png';
+$user-icon: (60px, 70px, -60px, -70px, 25px, 25px, 180px, 175px, '../../images/sprite.png', 'user-icon', );
+$visa-icon-name: 'visa-icon';
+$visa-icon-x: 90px;
+$visa-icon-y: 105px;
+$visa-icon-offset-x: -90px;
+$visa-icon-offset-y: -105px;
+$visa-icon-width: 30px;
+$visa-icon-height: 22px;
+$visa-icon-total-width: 180px;
+$visa-icon-total-height: 175px;
+$visa-icon-image: '../../images/sprite.png';
+$visa-icon: (90px, 105px, -90px, -105px, 30px, 22px, 180px, 175px, '../../images/sprite.png', 'visa-icon', );
+$vtex-logo-name: 'vtex-logo';
+$vtex-logo-x: 0px;
+$vtex-logo-y: 0px;
+$vtex-logo-offset-x: 0px;
+$vtex-logo-offset-y: 0px;
+$vtex-logo-width: 86px;
+$vtex-logo-height: 45px;
+$vtex-logo-total-width: 180px;
+$vtex-logo-total-height: 175px;
+$vtex-logo-image: '../../images/sprite.png';
+$vtex-logo: (0px, 0px, 0px, 0px, 86px, 45px, 180px, 175px, '../../images/sprite.png', 'vtex-logo', );
+$spritesheet-width: 180px;
+$spritesheet-height: 175px;
+$spritesheet-image: '../../images/sprite.png';
+$spritesheet-sprites: ($americanexpress-icon, $arrow-left, $arrow-right, $boleto-icon, $burger-menu, $card-icon, $cart-icon, $elo-icon, $encrypt-logo, $eye-icon, $facebook-icon, $hipercard-icon, $instagram-icon, $like-icon, $like2-icon, $mastercard-icon, $pci-logo, $sanders-logo, $search-icon, $user-icon, $visa-icon, $vtex-logo, );
+$spritesheet: (180px, 175px, '../../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
